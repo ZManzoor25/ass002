@@ -1,0 +1,33 @@
+/* components/Header.module.css */
+.header {
+    background-color: #0c345b;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(174, 241, 186);
+}
+
+.navList {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+
+
+.navList li {
+    display:inline;
+
+}
+
+.navList a {
+    text-decoration: none;
+    color: #cec6c6;
+}
+
+.navList a:hover {
+    text-decoration: underline;
+}
